@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+}
+
+#wrapper{
+	width: 90%;
+	height: 800px;
+	background: radial-gradient(circle, yellow, green, gold);
+	margin: 0 auto;
+	position: relative;
+}
+
+#wrapper, header, nav, footer, .main, img{
+	border: 1px solid black;
+	border-collapse: collapse
+}
+
+header{
+	padding-left: 100px;
+}
+
+header img{
+	width: 100px;
+	height: 100px;
+	margin: 5px 10px
+}
+
+nav{
+	background-color: white;
+	padding: 5px;
+	text-align: center
+}
+
+section{
+	text-align: center;
+}
+
+article{
+	width: 60%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+article img{
+	max-height: 450px;
+	width: 100%;
+}
+
+h1, article p{
+	color: white;
+}
+
+footer{
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+}
+
+footer p:first-child{
+	text-align: right;
+}
+
+footer p:last-child{
+	text-align: center;
+}
